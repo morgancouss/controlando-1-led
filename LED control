@@ -1,0 +1,5 @@
+pinmode(13,output);//dissemos para o arduino que o pino I13 sera usado para enviar corrente eletrica ao LED;
+digitalwrite(13,high);//dissemos para o arduino o nivel logico da porta ou seja High=alto=SV;
+delay(1000);//espera de 1 segundo;
+digitalwrite(13,low);//diz ao arduino o nivel logico da porta,ou seja,Low=baixo=OV;
+delay(1000);//espera ou aguardo de 1 segundo;
