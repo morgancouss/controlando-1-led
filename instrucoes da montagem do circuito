@@ -1,0 +1,2 @@
+adicione o terminal menor do LED (polo negativo),na porta GND do arduino;
+em seguida adicione A o terminal maior do led (polo positivo),na porta digital 13 do arduino;
